@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 2s;
+}
+.btn-primary:hover {
+  background: #920322;
+}
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+.section-heading h2 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-heading p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-heading {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+.banner-text h1,
+.banner-text p {
+  margin-bottom: 30px;
+}
+.banner-text {
+  max-width: 35%;
+}
+.banner-img img {
+  width: 100%;
+  vertical-align: top;
+}
+
+/* section our featured flowers */
+#featured {
+  padding: 100px 0;
+}
+.section-content {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 25px;
+  align-items: end;
+}
+.flower-img1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 0px 70px 0 70px;
+  height: 540px;
+  display: flex;
+  align-items: end;
+}
+.flower-img2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 0px 40px 0 40px;
+  height: 540px;
+  display: flex;
+  align-items: center;
+}
+.flower-img3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 0px 70px 0 70px;
+  height: 540px;
+  display: flex;
+  align-items: end;
+}
+.flower p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 30px;
+}
+.features {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.features-content{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.features-content p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
