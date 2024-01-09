@@ -129,9 +129,9 @@ header {
   padding: 80px 0;
 }
 
-.features-content{
-    padding-left: 100px;
-    padding-right: 100px;
+.features-content {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .features-content p {
   color: rgba(39, 39, 39, 0.8);
@@ -139,4 +139,43 @@ header {
   font-size: 20px;
   font-weight: 400;
   margin-top: 10px;
+}
+
+#hot-deal-container {
+  background: rgba(229, 84, 115, 0.05);
+  margin: 128px 0;
+}
+
+.hot-deal {
+  width: 75%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.image {
+  padding: 100px 0;
+  margin-right: 180px;
+}
+.text-content h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0 0 24px 150px;
+}
+.text-content span {
+  color: #e55473;
+}
+.text-content p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.text-content{
+  text-align: center;
 }
